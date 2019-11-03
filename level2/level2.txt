@@ -1,0 +1,42 @@
+1. What is the DOM?
+- The DOM is the "Document Object Model". 
+  It give us as developers the chance to modify objects in html documents.
+
+2. List three methods to manipulate the DOM.
+- createElement()
+    example: var newLi document.createElement('li');
+    
+- style.list-style:
+    example: newUl.style.list-style = 'none';
+    
+- querySelector()
+    example: document.querySelector('li');
+    
+3. What is an asynchronous call?
+- An asynchronous call is a method to make a call while the rest of the program is loading. 
+The code will not wait for the server to answer before executing.
+
+4. Briefly explain what the sources tab in Chromes Developers Tools does.
+- The sources tab lets you set breakpionts and blackboxes in your code while debugging. 
+You can also set Event listener breakpoints that will stop the code from running on 
+trigger and highlight the code for you. 
+There is much more you can do, but this is a brief.
+
+5. What is a JavaScript promise?
+- A promise is a way to let asynchronous code return a value. It can have three states: 
+    "rejected" : Failed 
+    "pending" : State not set yet
+    or "fulfilled" : Successful
+    
+6. What is an API?
+- An API can be a way to connect/communicate with web-services.
+  YouTube for example has an Analytics API where you can get your channels Analytics data.
+  API stands for "Application Programming Interface" (was about to say Protocol there.)
+  
+7. What is a JavaScript Event?
+- A JavaScript Event is a way for JS to interact with you HTML page.
+  You can add a function on a button and make this pop up as an alert as we did in Level1, q1.
+  
+8. What is event bubbling?
+- Event bubbling is the order event handlers are called when nested.
+  
